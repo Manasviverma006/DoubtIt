@@ -1,0 +1,61 @@
+campaign_id,campaign_name,organization_name,website,upi_id,bank_account_test_id,phone_test_id,record_type,review_status
+C001,Aarogya Child Care Appeal,BrightSteps Trust,campaign001.example.invalid,shared01@upi.test,ACC-TEST-001,PH-TEST-001,Synthetic,Under review
+C002,Emergency Surgery Support,HopeBridge Foundation,campaign002.example.invalid,campaign002@upi.test,ACC-TEST-002,PH-TEST-001,Synthetic,Awaiting documents
+C003,Flood Relief Community Drive,ReliefHands Collective,campaign003.example.invalid,campaign003@upi.test,ACC-TEST-001,PH-TEST-003,Synthetic,Pending
+C004,Education for Every Child,LearnWell Initiative,campaign004.example.invalid,campaign004@upi.test,ACC-TEST-004,PH-TEST-004,Synthetic,Under review
+C005,Critical Care Fundraiser,CareFirst Network,campaign005.example.invalid,shared01@upi.test,ACC-TEST-005,PH-TEST-005,Synthetic,Awaiting documents
+C006,Animal Rescue Appeal,PawsAndHope Group,campaign006.example.invalid,campaign006@upi.test,ACC-TEST-006,PH-TEST-002,Synthetic,Pending
+C007,Rural Water Project,JalSakhi Foundation,campaign007.example.invalid,campaign007@upi.test,ACC-TEST-007,PH-TEST-007,Synthetic,Under review
+C008,Support for Senior Citizens,GoldenYears Care,campaign008.example.invalid,campaign008@upi.test,ACC-TEST-008,PH-TEST-008,Synthetic,Awaiting documents
+C009,Medical Equipment Appeal,SehatAccess Group,campaign009.example.invalid,shared02@upi.test,ACC-TEST-002,PH-TEST-009,Synthetic,Pending
+C010,Community Kitchen Drive,FoodCircle Initiative,campaign010.example.invalid,campaign010@upi.test,ACC-TEST-010,PH-TEST-003,Synthetic,Under review
+C011,Disaster Housing Support,RebuildTogether Network,campaign011.example.invalid,campaign011@upi.test,ACC-TEST-011,PH-TEST-011,Synthetic,Awaiting documents
+C012,Scholarship Assistance Fund,FuturePath Trust,campaign012.example.invalid,campaign012@upi.test,ACC-TEST-012,PH-TEST-012,Synthetic,Pending
+C013,Rural Health Van Project,HealthReach Collective,campaign013.example.invalid,shared03@upi.test,ACC-TEST-013,PH-TEST-013,Synthetic,Under review
+C014,Winter Blanket Distribution,WarmHearts Network,campaign014.example.invalid,campaign014@upi.test,ACC-TEST-014,PH-TEST-004,Synthetic,Awaiting documents
+C015,Accessible Learning Initiative,OpenPages Foundation,campaign015.example.invalid,campaign015@upi.test,ACC-TEST-003,PH-TEST-015,Synthetic,Pending
+C016,Blood Donation Awareness Drive,LifeDrop Initiative,campaign016.example.invalid,campaign016@upi.test,ACC-TEST-016,PH-TEST-016,Synthetic,Under review
+C017,Women Skills Training Fund,Udaan Skills Collective,campaign017.example.invalid,shared04@upi.test,ACC-TEST-017,PH-TEST-017,Synthetic,Awaiting documents
+C018,Village Sanitation Project,CleanVillage Network,campaign018.example.invalid,campaign018@upi.test,ACC-TEST-018,PH-TEST-005,Synthetic,Pending
+C019,Orphanage Library Appeal,LittleReaders Trust,campaign019.example.invalid,campaign019@upi.test,ACC-TEST-019,PH-TEST-019,Synthetic,Under review
+C020,Emergency Ambulance Support,RapidCare Foundation,campaign020.example.invalid,campaign020@upi.test,ACC-TEST-020,PH-TEST-020,Synthetic,Awaiting documents
+C021,Aarogya Child Care Appeal - Batch 2,BrightSteps Trust,campaign021.example.invalid,shared05@upi.test,ACC-TEST-004,PH-TEST-021,Synthetic,Pending
+C022,Emergency Surgery Support - Batch 2,HopeBridge Foundation,campaign022.example.invalid,campaign022@upi.test,ACC-TEST-022,PH-TEST-006,Synthetic,Under review
+C023,Flood Relief Community Drive - Batch 2,ReliefHands Collective,campaign023.example.invalid,campaign023@upi.test,ACC-TEST-023,PH-TEST-023,Synthetic,Awaiting documents
+C024,Education for Every Child - Batch 2,LearnWell Initiative,campaign024.example.invalid,campaign024@upi.test,ACC-TEST-024,PH-TEST-024,Synthetic,Pending
+C025,Critical Care Fundraiser - Batch 2,CareFirst Network,campaign025.example.invalid,shared05@upi.test,ACC-TEST-025,PH-TEST-025,Synthetic,Under review
+C026,Animal Rescue Appeal - Batch 2,PawsAndHope Group,campaign026.example.invalid,campaign026@upi.test,ACC-TEST-026,PH-TEST-007,Synthetic,Awaiting documents
+C027,Rural Water Project - Batch 2,JalSakhi Foundation,campaign027.example.invalid,campaign027@upi.test,ACC-TEST-005,PH-TEST-027,Synthetic,Pending
+C028,Support for Senior Citizens - Batch 2,GoldenYears Care,campaign028.example.invalid,campaign028@upi.test,ACC-TEST-028,PH-TEST-028,Synthetic,Under review
+C029,Medical Equipment Appeal - Batch 2,SehatAccess Group,campaign029.example.invalid,shared06@upi.test,ACC-TEST-029,PH-TEST-029,Synthetic,Awaiting documents
+C030,Community Kitchen Drive - Batch 2,FoodCircle Initiative,campaign030.example.invalid,campaign030@upi.test,ACC-TEST-030,PH-TEST-008,Synthetic,Pending
+C031,Disaster Housing Support - Batch 2,RebuildTogether Network,campaign031.example.invalid,campaign031@upi.test,ACC-TEST-031,PH-TEST-031,Synthetic,Under review
+C032,Scholarship Assistance Fund - Batch 2,FuturePath Trust,campaign032.example.invalid,campaign032@upi.test,ACC-TEST-032,PH-TEST-032,Synthetic,Awaiting documents
+C033,Rural Health Van Project - Batch 2,HealthReach Collective,campaign033.example.invalid,shared07@upi.test,ACC-TEST-006,PH-TEST-033,Synthetic,Pending
+C034,Winter Blanket Distribution - Batch 2,WarmHearts Network,campaign034.example.invalid,campaign034@upi.test,ACC-TEST-034,PH-TEST-009,Synthetic,Under review
+C035,Accessible Learning Initiative - Batch 2,OpenPages Foundation,campaign035.example.invalid,campaign035@upi.test,ACC-TEST-035,PH-TEST-035,Synthetic,Awaiting documents
+C036,Blood Donation Awareness Drive - Batch 2,LifeDrop Initiative,campaign036.example.invalid,campaign036@upi.test,ACC-TEST-036,PH-TEST-036,Synthetic,Pending
+C037,Women Skills Training Fund - Batch 2,Udaan Skills Collective,campaign037.example.invalid,shared08@upi.test,ACC-TEST-037,PH-TEST-037,Synthetic,Under review
+C038,Village Sanitation Project - Batch 2,CleanVillage Network,campaign038.example.invalid,campaign038@upi.test,ACC-TEST-038,PH-TEST-010,Synthetic,Awaiting documents
+C039,Orphanage Library Appeal - Batch 2,LittleReaders Trust,campaign039.example.invalid,campaign039@upi.test,ACC-TEST-007,PH-TEST-039,Synthetic,Pending
+C040,Emergency Ambulance Support - Batch 2,RapidCare Foundation,campaign040.example.invalid,campaign040@upi.test,ACC-TEST-040,PH-TEST-040,Synthetic,Under review
+C041,Aarogya Child Care Appeal - Batch 3,BrightSteps Trust,campaign041.example.invalid,shared09@upi.test,ACC-TEST-041,PH-TEST-041,Synthetic,Awaiting documents
+C042,Emergency Surgery Support - Batch 3,HopeBridge Foundation,campaign042.example.invalid,campaign042@upi.test,ACC-TEST-042,PH-TEST-011,Synthetic,Pending
+C043,Flood Relief Community Drive - Batch 3,ReliefHands Collective,campaign043.example.invalid,campaign043@upi.test,ACC-TEST-043,PH-TEST-043,Synthetic,Under review
+C044,Education for Every Child - Batch 3,LearnWell Initiative,campaign044.example.invalid,campaign044@upi.test,ACC-TEST-044,PH-TEST-044,Synthetic,Awaiting documents
+C045,Critical Care Fundraiser - Batch 3,CareFirst Network,campaign045.example.invalid,shared09@upi.test,ACC-TEST-008,PH-TEST-045,Synthetic,Pending
+C046,Animal Rescue Appeal - Batch 3,PawsAndHope Group,campaign046.example.invalid,campaign046@upi.test,ACC-TEST-046,PH-TEST-012,Synthetic,Under review
+C047,Rural Water Project - Batch 3,JalSakhi Foundation,campaign047.example.invalid,campaign047@upi.test,ACC-TEST-047,PH-TEST-047,Synthetic,Awaiting documents
+C048,Support for Senior Citizens - Batch 3,GoldenYears Care,campaign048.example.invalid,campaign048@upi.test,ACC-TEST-048,PH-TEST-048,Synthetic,Pending
+C049,Medical Equipment Appeal - Batch 3,SehatAccess Group,campaign049.example.invalid,shared10@upi.test,ACC-TEST-049,PH-TEST-049,Synthetic,Under review
+C050,Community Kitchen Drive - Batch 3,FoodCircle Initiative,campaign050.example.invalid,campaign050@upi.test,ACC-TEST-050,PH-TEST-013,Synthetic,Awaiting documents
+C051,Disaster Housing Support - Batch 3,RebuildTogether Network,campaign051.example.invalid,campaign051@upi.test,ACC-TEST-009,PH-TEST-051,Synthetic,Pending
+C052,Scholarship Assistance Fund - Batch 3,FuturePath Trust,campaign052.example.invalid,campaign052@upi.test,ACC-TEST-052,PH-TEST-052,Synthetic,Under review
+C053,Rural Health Van Project - Batch 3,HealthReach Collective,campaign053.example.invalid,shared11@upi.test,ACC-TEST-053,PH-TEST-053,Synthetic,Awaiting documents
+C054,Winter Blanket Distribution - Batch 3,WarmHearts Network,campaign054.example.invalid,campaign054@upi.test,ACC-TEST-054,PH-TEST-014,Synthetic,Pending
+C055,Accessible Learning Initiative - Batch 3,OpenPages Foundation,campaign055.example.invalid,campaign055@upi.test,ACC-TEST-055,PH-TEST-055,Synthetic,Under review
+C056,Blood Donation Awareness Drive - Batch 3,LifeDrop Initiative,campaign056.example.invalid,campaign056@upi.test,ACC-TEST-056,PH-TEST-056,Synthetic,Awaiting documents
+C057,Women Skills Training Fund - Batch 3,Udaan Skills Collective,campaign057.example.invalid,shared12@upi.test,ACC-TEST-010,PH-TEST-057,Synthetic,Pending
+C058,Village Sanitation Project - Batch 3,CleanVillage Network,campaign058.example.invalid,campaign058@upi.test,ACC-TEST-058,PH-TEST-015,Synthetic,Under review
+C059,Orphanage Library Appeal - Batch 3,LittleReaders Trust,campaign059.example.invalid,campaign059@upi.test,ACC-TEST-059,PH-TEST-059,Synthetic,Awaiting documents
+C060,Emergency Ambulance Support - Batch 3,RapidCare Foundation,campaign060.example.invalid,campaign060@upi.test,ACC-TEST-060,PH-TEST-060,Synthetic,Pending
