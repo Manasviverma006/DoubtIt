@@ -1,0 +1,121 @@
+evidence_id,campaign_id,complaint_id,evidence_type,evidence_description,source_reference,record_type,verification_status
+EV001,C007,CMP001,Campaign page snapshot,Simulated supporting record for complaint CMP001: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-001,Synthetic,Pending
+EV002,C014,CMP002,Communication log,Simulated supporting record for complaint CMP002: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-002,Synthetic,Under review
+EV003,C021,CMP003,Payment display record,Simulated supporting record for complaint CMP003: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-003,Synthetic,Unverified
+EV004,C028,CMP004,Campaign description review,Simulated supporting record for complaint CMP004: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-004,Synthetic,Pending
+EV005,C035,CMP005,Document checklist,Simulated supporting record for complaint CMP005: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-005,Synthetic,Under review
+EV006,C042,CMP006,Identifier match record,Simulated supporting record for complaint CMP006: A test payment identifier appears in more than one campaign record.,TEST-REF-006,Synthetic,Unverified
+EV007,C049,CMP007,Image attribution note,Simulated supporting record for complaint CMP007: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-007,Synthetic,Pending
+EV008,C056,CMP008,Organisation details checklist,Simulated supporting record for complaint CMP008: Reporter requests independently checkable organisation registration details.,TEST-REF-008,Synthetic,Under review
+EV009,C003,CMP009,Contact log,Simulated supporting record for complaint CMP009: Different contact details appear in simulated campaign communications.,TEST-REF-009,Synthetic,Unverified
+EV010,C010,CMP010,Update history,Simulated supporting record for complaint CMP010: Reporter says an expected progress update is not present in the sample record.,TEST-REF-010,Synthetic,Pending
+EV011,C017,CMP011,Account ownership verification field,Simulated supporting record for complaint CMP011: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-011,Synthetic,Under review
+EV012,C024,CMP012,Budget document checklist,Simulated supporting record for complaint CMP012: Reporter requests an itemised budget or supporting estimate.,TEST-REF-012,Synthetic,Unverified
+EV013,C031,CMP013,Campaign page snapshot,Simulated supporting record for complaint CMP013: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-013,Synthetic,Pending
+EV014,C038,CMP014,Communication log,Simulated supporting record for complaint CMP014: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-014,Synthetic,Under review
+EV015,C045,CMP015,Payment display record,Simulated supporting record for complaint CMP015: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-015,Synthetic,Unverified
+EV016,C052,CMP016,Campaign description review,Simulated supporting record for complaint CMP016: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-016,Synthetic,Pending
+EV017,C059,CMP017,Document checklist,Simulated supporting record for complaint CMP017: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-017,Synthetic,Under review
+EV018,C006,CMP018,Identifier match record,Simulated supporting record for complaint CMP018: A test payment identifier appears in more than one campaign record.,TEST-REF-018,Synthetic,Unverified
+EV019,C013,CMP019,Image attribution note,Simulated supporting record for complaint CMP019: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-019,Synthetic,Pending
+EV020,C020,CMP020,Organisation details checklist,Simulated supporting record for complaint CMP020: Reporter requests independently checkable organisation registration details.,TEST-REF-020,Synthetic,Under review
+EV021,C027,CMP021,Contact log,Simulated supporting record for complaint CMP021: Different contact details appear in simulated campaign communications.,TEST-REF-021,Synthetic,Unverified
+EV022,C034,CMP022,Update history,Simulated supporting record for complaint CMP022: Reporter says an expected progress update is not present in the sample record.,TEST-REF-022,Synthetic,Pending
+EV023,C041,CMP023,Account ownership verification field,Simulated supporting record for complaint CMP023: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-023,Synthetic,Under review
+EV024,C048,CMP024,Budget document checklist,Simulated supporting record for complaint CMP024: Reporter requests an itemised budget or supporting estimate.,TEST-REF-024,Synthetic,Unverified
+EV025,C055,CMP025,Campaign page snapshot,Simulated supporting record for complaint CMP025: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-025,Synthetic,Pending
+EV026,C002,CMP026,Communication log,Simulated supporting record for complaint CMP026: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-026,Synthetic,Under review
+EV027,C009,CMP027,Payment display record,Simulated supporting record for complaint CMP027: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-027,Synthetic,Unverified
+EV028,C016,CMP028,Campaign description review,Simulated supporting record for complaint CMP028: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-028,Synthetic,Pending
+EV029,C023,CMP029,Document checklist,Simulated supporting record for complaint CMP029: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-029,Synthetic,Under review
+EV030,C030,CMP030,Identifier match record,Simulated supporting record for complaint CMP030: A test payment identifier appears in more than one campaign record.,TEST-REF-030,Synthetic,Unverified
+EV031,C037,CMP031,Image attribution note,Simulated supporting record for complaint CMP031: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-031,Synthetic,Pending
+EV032,C044,CMP032,Organisation details checklist,Simulated supporting record for complaint CMP032: Reporter requests independently checkable organisation registration details.,TEST-REF-032,Synthetic,Under review
+EV033,C051,CMP033,Contact log,Simulated supporting record for complaint CMP033: Different contact details appear in simulated campaign communications.,TEST-REF-033,Synthetic,Unverified
+EV034,C058,CMP034,Update history,Simulated supporting record for complaint CMP034: Reporter says an expected progress update is not present in the sample record.,TEST-REF-034,Synthetic,Pending
+EV035,C005,CMP035,Account ownership verification field,Simulated supporting record for complaint CMP035: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-035,Synthetic,Under review
+EV036,C012,CMP036,Budget document checklist,Simulated supporting record for complaint CMP036: Reporter requests an itemised budget or supporting estimate.,TEST-REF-036,Synthetic,Unverified
+EV037,C019,CMP037,Campaign page snapshot,Simulated supporting record for complaint CMP037: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-037,Synthetic,Pending
+EV038,C026,CMP038,Communication log,Simulated supporting record for complaint CMP038: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-038,Synthetic,Under review
+EV039,C033,CMP039,Payment display record,Simulated supporting record for complaint CMP039: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-039,Synthetic,Unverified
+EV040,C040,CMP040,Campaign description review,Simulated supporting record for complaint CMP040: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-040,Synthetic,Pending
+EV041,C047,CMP041,Document checklist,Simulated supporting record for complaint CMP041: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-041,Synthetic,Under review
+EV042,C054,CMP042,Identifier match record,Simulated supporting record for complaint CMP042: A test payment identifier appears in more than one campaign record.,TEST-REF-042,Synthetic,Unverified
+EV043,C001,CMP043,Image attribution note,Simulated supporting record for complaint CMP043: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-043,Synthetic,Pending
+EV044,C008,CMP044,Organisation details checklist,Simulated supporting record for complaint CMP044: Reporter requests independently checkable organisation registration details.,TEST-REF-044,Synthetic,Under review
+EV045,C015,CMP045,Contact log,Simulated supporting record for complaint CMP045: Different contact details appear in simulated campaign communications.,TEST-REF-045,Synthetic,Unverified
+EV046,C022,CMP046,Update history,Simulated supporting record for complaint CMP046: Reporter says an expected progress update is not present in the sample record.,TEST-REF-046,Synthetic,Pending
+EV047,C029,CMP047,Account ownership verification field,Simulated supporting record for complaint CMP047: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-047,Synthetic,Under review
+EV048,C036,CMP048,Budget document checklist,Simulated supporting record for complaint CMP048: Reporter requests an itemised budget or supporting estimate.,TEST-REF-048,Synthetic,Unverified
+EV049,C043,CMP049,Campaign page snapshot,Simulated supporting record for complaint CMP049: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-049,Synthetic,Pending
+EV050,C050,CMP050,Communication log,Simulated supporting record for complaint CMP050: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-050,Synthetic,Under review
+EV051,C057,CMP051,Payment display record,Simulated supporting record for complaint CMP051: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-051,Synthetic,Unverified
+EV052,C004,CMP052,Campaign description review,Simulated supporting record for complaint CMP052: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-052,Synthetic,Pending
+EV053,C011,CMP053,Document checklist,Simulated supporting record for complaint CMP053: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-053,Synthetic,Under review
+EV054,C018,CMP054,Identifier match record,Simulated supporting record for complaint CMP054: A test payment identifier appears in more than one campaign record.,TEST-REF-054,Synthetic,Unverified
+EV055,C025,CMP055,Image attribution note,Simulated supporting record for complaint CMP055: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-055,Synthetic,Pending
+EV056,C032,CMP056,Organisation details checklist,Simulated supporting record for complaint CMP056: Reporter requests independently checkable organisation registration details.,TEST-REF-056,Synthetic,Under review
+EV057,C039,CMP057,Contact log,Simulated supporting record for complaint CMP057: Different contact details appear in simulated campaign communications.,TEST-REF-057,Synthetic,Unverified
+EV058,C046,CMP058,Update history,Simulated supporting record for complaint CMP058: Reporter says an expected progress update is not present in the sample record.,TEST-REF-058,Synthetic,Pending
+EV059,C053,CMP059,Account ownership verification field,Simulated supporting record for complaint CMP059: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-059,Synthetic,Under review
+EV060,C060,CMP060,Budget document checklist,Simulated supporting record for complaint CMP060: Reporter requests an itemised budget or supporting estimate.,TEST-REF-060,Synthetic,Unverified
+EV061,C007,CMP061,Campaign page snapshot,Simulated supporting record for complaint CMP061: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-061,Synthetic,Pending
+EV062,C014,CMP062,Communication log,Simulated supporting record for complaint CMP062: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-062,Synthetic,Under review
+EV063,C021,CMP063,Payment display record,Simulated supporting record for complaint CMP063: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-063,Synthetic,Unverified
+EV064,C028,CMP064,Campaign description review,Simulated supporting record for complaint CMP064: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-064,Synthetic,Pending
+EV065,C035,CMP065,Document checklist,Simulated supporting record for complaint CMP065: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-065,Synthetic,Under review
+EV066,C042,CMP066,Identifier match record,Simulated supporting record for complaint CMP066: A test payment identifier appears in more than one campaign record.,TEST-REF-066,Synthetic,Unverified
+EV067,C049,CMP067,Image attribution note,Simulated supporting record for complaint CMP067: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-067,Synthetic,Pending
+EV068,C056,CMP068,Organisation details checklist,Simulated supporting record for complaint CMP068: Reporter requests independently checkable organisation registration details.,TEST-REF-068,Synthetic,Under review
+EV069,C003,CMP069,Contact log,Simulated supporting record for complaint CMP069: Different contact details appear in simulated campaign communications.,TEST-REF-069,Synthetic,Unverified
+EV070,C010,CMP070,Update history,Simulated supporting record for complaint CMP070: Reporter says an expected progress update is not present in the sample record.,TEST-REF-070,Synthetic,Pending
+EV071,C017,CMP071,Account ownership verification field,Simulated supporting record for complaint CMP071: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-071,Synthetic,Under review
+EV072,C024,CMP072,Budget document checklist,Simulated supporting record for complaint CMP072: Reporter requests an itemised budget or supporting estimate.,TEST-REF-072,Synthetic,Unverified
+EV073,C031,CMP073,Campaign page snapshot,Simulated supporting record for complaint CMP073: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-073,Synthetic,Pending
+EV074,C038,CMP074,Communication log,Simulated supporting record for complaint CMP074: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-074,Synthetic,Under review
+EV075,C045,CMP075,Payment display record,Simulated supporting record for complaint CMP075: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-075,Synthetic,Unverified
+EV076,C052,CMP076,Campaign description review,Simulated supporting record for complaint CMP076: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-076,Synthetic,Pending
+EV077,C059,CMP077,Document checklist,Simulated supporting record for complaint CMP077: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-077,Synthetic,Under review
+EV078,C006,CMP078,Identifier match record,Simulated supporting record for complaint CMP078: A test payment identifier appears in more than one campaign record.,TEST-REF-078,Synthetic,Unverified
+EV079,C013,CMP079,Image attribution note,Simulated supporting record for complaint CMP079: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-079,Synthetic,Pending
+EV080,C020,CMP080,Organisation details checklist,Simulated supporting record for complaint CMP080: Reporter requests independently checkable organisation registration details.,TEST-REF-080,Synthetic,Under review
+EV081,C027,CMP081,Contact log,Simulated supporting record for complaint CMP081: Different contact details appear in simulated campaign communications.,TEST-REF-081,Synthetic,Unverified
+EV082,C034,CMP082,Update history,Simulated supporting record for complaint CMP082: Reporter says an expected progress update is not present in the sample record.,TEST-REF-082,Synthetic,Pending
+EV083,C041,CMP083,Account ownership verification field,Simulated supporting record for complaint CMP083: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-083,Synthetic,Under review
+EV084,C048,CMP084,Budget document checklist,Simulated supporting record for complaint CMP084: Reporter requests an itemised budget or supporting estimate.,TEST-REF-084,Synthetic,Unverified
+EV085,C055,CMP085,Campaign page snapshot,Simulated supporting record for complaint CMP085: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-085,Synthetic,Pending
+EV086,C002,CMP086,Communication log,Simulated supporting record for complaint CMP086: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-086,Synthetic,Under review
+EV087,C009,CMP087,Payment display record,Simulated supporting record for complaint CMP087: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-087,Synthetic,Unverified
+EV088,C016,CMP088,Campaign description review,Simulated supporting record for complaint CMP088: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-088,Synthetic,Pending
+EV089,C023,CMP089,Document checklist,Simulated supporting record for complaint CMP089: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-089,Synthetic,Under review
+EV090,C030,CMP090,Identifier match record,Simulated supporting record for complaint CMP090: A test payment identifier appears in more than one campaign record.,TEST-REF-090,Synthetic,Unverified
+EV091,C037,CMP091,Image attribution note,Simulated supporting record for complaint CMP091: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-091,Synthetic,Pending
+EV092,C044,CMP092,Organisation details checklist,Simulated supporting record for complaint CMP092: Reporter requests independently checkable organisation registration details.,TEST-REF-092,Synthetic,Under review
+EV093,C051,CMP093,Contact log,Simulated supporting record for complaint CMP093: Different contact details appear in simulated campaign communications.,TEST-REF-093,Synthetic,Unverified
+EV094,C058,CMP094,Update history,Simulated supporting record for complaint CMP094: Reporter says an expected progress update is not present in the sample record.,TEST-REF-094,Synthetic,Pending
+EV095,C005,CMP095,Account ownership verification field,Simulated supporting record for complaint CMP095: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-095,Synthetic,Under review
+EV096,C012,CMP096,Budget document checklist,Simulated supporting record for complaint CMP096: Reporter requests an itemised budget or supporting estimate.,TEST-REF-096,Synthetic,Unverified
+EV097,C019,CMP097,Campaign page snapshot,Simulated supporting record for complaint CMP097: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-097,Synthetic,Pending
+EV098,C026,CMP098,Communication log,Simulated supporting record for complaint CMP098: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-098,Synthetic,Under review
+EV099,C033,CMP099,Payment display record,Simulated supporting record for complaint CMP099: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-099,Synthetic,Unverified
+EV100,C040,CMP100,Campaign description review,Simulated supporting record for complaint CMP100: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-100,Synthetic,Pending
+EV101,C047,CMP101,Document checklist,Simulated supporting record for complaint CMP101: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-101,Synthetic,Under review
+EV102,C054,CMP102,Identifier match record,Simulated supporting record for complaint CMP102: A test payment identifier appears in more than one campaign record.,TEST-REF-102,Synthetic,Unverified
+EV103,C001,CMP103,Image attribution note,Simulated supporting record for complaint CMP103: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-103,Synthetic,Pending
+EV104,C008,CMP104,Organisation details checklist,Simulated supporting record for complaint CMP104: Reporter requests independently checkable organisation registration details.,TEST-REF-104,Synthetic,Under review
+EV105,C015,CMP105,Contact log,Simulated supporting record for complaint CMP105: Different contact details appear in simulated campaign communications.,TEST-REF-105,Synthetic,Unverified
+EV106,C022,CMP106,Update history,Simulated supporting record for complaint CMP106: Reporter says an expected progress update is not present in the sample record.,TEST-REF-106,Synthetic,Pending
+EV107,C029,CMP107,Account ownership verification field,Simulated supporting record for complaint CMP107: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-107,Synthetic,Under review
+EV108,C036,CMP108,Budget document checklist,Simulated supporting record for complaint CMP108: Reporter requests an itemised budget or supporting estimate.,TEST-REF-108,Synthetic,Unverified
+EV109,C043,CMP109,Campaign page snapshot,Simulated supporting record for complaint CMP109: Reporter requests a clearer breakdown of how collected funds will be used.,TEST-REF-109,Synthetic,Pending
+EV110,C050,CMP110,Communication log,Simulated supporting record for complaint CMP110: Reporter says an acknowledgement or receipt has not yet been received.,TEST-REF-110,Synthetic,Under review
+EV111,C057,CMP111,Payment display record,Simulated supporting record for complaint CMP111: Reporter says the displayed payment recipient name differs from the campaign name.,TEST-REF-111,Synthetic,Unverified
+EV112,C004,CMP112,Campaign description review,Simulated supporting record for complaint CMP112: Reporter asks for clarification about a detail in the campaign description.,TEST-REF-112,Synthetic,Pending
+EV113,C011,CMP113,Document checklist,Simulated supporting record for complaint CMP113: Reporter requests documents supporting the stated purpose of the campaign.,TEST-REF-113,Synthetic,Under review
+EV114,C018,CMP114,Identifier match record,Simulated supporting record for complaint CMP114: A test payment identifier appears in more than one campaign record.,TEST-REF-114,Synthetic,Unverified
+EV115,C025,CMP115,Image attribution note,Simulated supporting record for complaint CMP115: Reporter asks for the source or context of an image used on the campaign page.,TEST-REF-115,Synthetic,Pending
+EV116,C032,CMP116,Organisation details checklist,Simulated supporting record for complaint CMP116: Reporter requests independently checkable organisation registration details.,TEST-REF-116,Synthetic,Under review
+EV117,C039,CMP117,Contact log,Simulated supporting record for complaint CMP117: Different contact details appear in simulated campaign communications.,TEST-REF-117,Synthetic,Unverified
+EV118,C046,CMP118,Update history,Simulated supporting record for complaint CMP118: Reporter says an expected progress update is not present in the sample record.,TEST-REF-118,Synthetic,Pending
+EV119,C053,CMP119,Account ownership verification field,Simulated supporting record for complaint CMP119: Reporter asks whether the payment account is associated with the named organisation.,TEST-REF-119,Synthetic,Under review
+EV120,C060,CMP120,Budget document checklist,Simulated supporting record for complaint CMP120: Reporter requests an itemised budget or supporting estimate.,TEST-REF-120,Synthetic,Unverified
