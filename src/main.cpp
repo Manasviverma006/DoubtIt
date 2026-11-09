@@ -2,15 +2,19 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <sstream>
+
 #include "common/Campaign.h"
 #include "linked_list/CampaignList.h"
 #include "hash_table/HashTable.h"
-#include <sstream>
 #include "common/Complaint.h"
 #include "linked_list/ComplaintList.h"
+#include "graph/graph.h"
 
 using namespace std;
 
+
+// CSV parsing function
 vector<string> parseCSVLine(string line) {
     vector<string> fields;
     string field;
@@ -24,7 +28,8 @@ vector<string> parseCSVLine(string line) {
                 && line[i + 1] == '"') {
                 field += '"';
                 i++;
-            } else {
+            }
+            else {
                 insideQuotes = !insideQuotes;
             }
         }
@@ -43,8 +48,16 @@ vector<string> parseCSVLine(string line) {
 
 
 int main() {
+
     CampaignList list;
     HashTable hashTable;
+    ComplaintList complaintList;
+    Graph graph;
+
+
+    // =================================
+    // LOAD CAMPAIGN DATA
+    // =================================
 
     ifstream file("data/campaigns.csv");
 
@@ -60,6 +73,7 @@ int main() {
     int skipped = 0;
 
     while (getline(file, line)) {
+
         if (line.empty()) continue;
 
         vector<string> fields = parseCSVLine(line);
@@ -70,6 +84,7 @@ int main() {
         }
 
         Campaign c;
+
         c.campaign_id = fields[0];
         c.campaign_name = fields[1];
         c.organization_name = fields[2];
@@ -82,82 +97,168 @@ int main() {
 
         list.insertCampaign(c);
         hashTable.insertCampaign(c);
+
         loaded++;
     }
 
     file.close();
-    ComplaintList complaintList;
 
-ifstream complaintFile("data/complaints.csv");
 
-if (!complaintFile.is_open()) {
-    cout << "Unable to open complaints.csv" << endl;
-    return 1;
-}
+    // =================================
+    // LOAD COMPLAINT DATA
+    // =================================
 
-getline(complaintFile, line);
+    ifstream complaintFile("data/complaints.csv");
 
-int complaintsLoaded = 0;
-int complaintsSkipped = 0;
-
-while (getline(complaintFile, line)) {
-    if (line.empty()) continue;
-
-    vector<string> fields = parseCSVLine(line);
-
-    if (fields.size() != 10) {
-        complaintsSkipped++;
-        continue;
+    if (!complaintFile.is_open()) {
+        cout << "Unable to open complaints.csv" << endl;
+        return 1;
     }
 
-    Complaint c;
-    c.complaint_id = fields[0];
-    c.campaign_id = fields[1];
-    c.date_received = fields[2];
-    c.report_channel = fields[3];
-    c.complaint_description = fields[4];
-    c.complaint_category = fields[5];
-    c.complaint_status = fields[6];
-    c.record_origin = fields[7];
-    c.record_type = fields[8];
-    c.related_identifier = fields[9];
+    getline(complaintFile, line);
 
-    complaintList.insertComplaint(c);
-    complaintsLoaded++;
-}
+    int complaintsLoaded = 0;
+    int complaintsSkipped = 0;
 
-complaintFile.close();
+    while (getline(complaintFile, line)) {
 
-cout << "\nCOMPLAINT DATA SUMMARY" << endl;
-cout << "Complaints loaded: " << complaintsLoaded << endl;
-cout << "Invalid complaint rows skipped: " << complaintsSkipped << endl;
+        if (line.empty()) continue;
+
+        vector<string> fields = parseCSVLine(line);
+
+        if (fields.size() != 10) {
+            complaintsSkipped++;
+            continue;
+        }
+
+        Complaint c;
+
+        c.complaint_id = fields[0];
+        c.campaign_id = fields[1];
+        c.date_received = fields[2];
+        c.report_channel = fields[3];
+        c.complaint_description = fields[4];
+        c.complaint_category = fields[5];
+        c.complaint_status = fields[6];
+        c.record_origin = fields[7];
+        c.record_type = fields[8];
+        c.related_identifier = fields[9];
+
+        complaintList.insertComplaint(c);
+
+        complaintsLoaded++;
+    }
+
+    complaintFile.close();
+
+
+    // =================================
+    // LOAD RELATIONSHIP DATA INTO GRAPH
+    // =================================
+
+    ifstream relationshipFile("data/relationships.csv");
+
+    if (!relationshipFile.is_open()) {
+        cout << "Unable to open relationships.csv" << endl;
+        return 1;
+    }
+
+    getline(relationshipFile, line);
+
+    int relationshipsLoaded = 0;
+    int relationshipsSkipped = 0;
+
+    while (getline(relationshipFile, line)) {
+
+        if (line.empty()) continue;
+
+        vector<string> fields = parseCSVLine(line);
+
+        if (fields.size() != 7) {
+            relationshipsSkipped++;
+            continue;
+        }
+
+        string source = fields[1];
+        string target = fields[2];
+        string relationshipType = fields[3];
+        string sharedIdentifier = fields[4];
+
+        if (source.empty() || target.empty()) {
+            relationshipsSkipped++;
+            continue;
+        }
+
+        graph.addRelationship(
+            source,
+            target,
+            relationshipType,
+            sharedIdentifier
+        );
+
+        relationshipsLoaded++;
+    }
+
+    relationshipFile.close();
+
+
+    // =================================
+    // DATA SUMMARY
+    // =================================
 
     cout << "\n========== DOUBTIT ==========" << endl;
-    cout << "Campaigns loaded: " << loaded << endl;
-    cout << "Invalid rows skipped: " << skipped << endl;
 
-   int choice;
-string identifier;
-string campaignId;
+    cout << "\nCAMPAIGN DATA SUMMARY" << endl;
+    cout << "Campaigns loaded: " << loaded << endl;
+    cout << "Invalid campaign rows skipped: " << skipped << endl;
+
+    cout << "\nCOMPLAINT DATA SUMMARY" << endl;
+    cout << "Complaints loaded: " << complaintsLoaded << endl;
+    cout << "Invalid complaint rows skipped: " << complaintsSkipped << endl;
+
+    cout << "\nGRAPH DATA SUMMARY" << endl;
+    cout << "Relationships loaded: " << relationshipsLoaded << endl;
+    cout << "Invalid relationship rows skipped: " << relationshipsSkipped << endl;
+
+
+    // =================================
+    // MAIN MENU
+    // =================================
+
+    int choice;
+    string identifier;
+    string campaignId;
 
     do {
-        cout << "\n========== IDENTIFIER VERIFICATION ==========" << endl;
-        cout << "1. Search UPI ID" << endl;
-    cout << "2. Search Bank Account" << endl ;
-    cout << "3. Search Phone Number" << endl;
-    cout << "4. Display Shared Identifiers" << endl;
-    cout << "5. Search Complaints by Campaign ID" << endl;
-    cout << "6. Exit" << endl;
-        cout << "Enter your choice: ";
 
+        cout << "\n========== DOUBTIT MENU ==========" << endl;
+
+        cout << "\n--- IDENTIFIER VERIFICATION ---" << endl;
+        cout << "1. Search UPI ID" << endl;
+        cout << "2. Search Bank Account" << endl;
+        cout << "3. Search Phone Number" << endl;
+        cout << "4. Display Shared Identifiers" << endl;
+        cout << "5. Search Complaints by Campaign ID" << endl;
+
+        cout << "\n--- GRAPH OPERATIONS ---" << endl;
+        cout << "6. Display Relationship Graph" << endl;
+        cout << "7. BFS Traversal" << endl;
+        cout << "8. DFS Traversal" << endl;
+
+        cout << "\n9. Exit" << endl;
+
+        cout << "\nEnter your choice: ";
         cin >> choice;
 
+
         switch (choice) {
+
             case 1:
                 cout << "Enter UPI ID: ";
                 cin >> identifier;
                 hashTable.searchUPI(identifier);
                 break;
+
 
             case 2:
                 cout << "Enter Bank Account ID: ";
@@ -165,11 +266,13 @@ string campaignId;
                 hashTable.searchBankAccount(identifier);
                 break;
 
+
             case 3:
                 cout << "Enter Phone Number ID: ";
                 cin >> identifier;
                 hashTable.searchPhoneNumber(identifier);
                 break;
+
 
             case 4:
                 hashTable.displaySharedUPIs();
@@ -177,27 +280,51 @@ string campaignId;
                 hashTable.displaySharedPhoneNumbers();
                 break;
 
-           case 5:
-    cout << "Enter Campaign ID: ";
-    cin >> campaignId;
 
-    cout << "\nTotal complaints: "
-         << complaintList.countComplaintsForCampaign(campaignId)
-         << endl;
+            case 5:
+                cout << "Enter Campaign ID: ";
+                cin >> campaignId;
 
-    complaintList.displayComplaintsForCampaign(campaignId);
-    break;
+                cout << "\nTotal complaints: "
+                     << complaintList.countComplaintsForCampaign(campaignId)
+                     << endl;
 
-case 6:
-    cout << "Exiting DoubtIt..." << endl;
-    break;
+                complaintList.displayComplaintsForCampaign(campaignId);
+                break;
+
+
+            case 6:
+                graph.displayGraph();
+                break;
+
+
+            case 7:
+                cout << "Enter starting Campaign ID for BFS: ";
+                cin >> campaignId;
+
+                graph.BFS(campaignId);
+                break;
+
+
+            case 8:
+                cout << "Enter starting Campaign ID for DFS: ";
+                cin >> campaignId;
+
+                graph.DFS(campaignId);
+                break;
+
+
+            case 9:
+                cout << "Exiting DoubtIt..." << endl;
+                break;
+
 
             default:
                 cout << "Invalid choice. Try again." << endl;
         }
 
-    } while (choice != 6);
+    } while (choice != 9);
+
 
     return 0;
 }
-   
