@@ -24,6 +24,7 @@ public:
     void insertComplaint(Complaint c);
     void displayComplaintsForCampaign(string campaignId);
     int countComplaintsForCampaign(string campaignId);
+    ComplaintNode* getHead() const;
 };
 
 #endif

@@ -78,5 +78,10 @@ int ComplaintList::countComplaintsForCampaign(string campaignId) {
         temp = temp->next;
     }
 
+
+
     return count;
+}
+ComplaintNode* ComplaintList::getHead() const {
+    return head;
 }
