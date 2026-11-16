@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risk Ranking – DoubtIt</title>
+  <meta name="description" content="DoubtIt — Do not let your trust become a trap. All donation campaigns ranked by risk score from highest to lowest.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-brand" href="/"><span class="nav-logo">Doubt<span>It</span></span></a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/search.html">Check a Campaign</a>
+      <a class="nav-link" href="/campaigns.html">Browse</a>
+      <a class="nav-link" href="/ranking.html">Risk Ranking</a>
+      <a class="nav-link" href="/about.html">About</a>
+      <a class="nav-link cta" href="/submit.html">Submit a Campaign</a>
+    </div>
+    <button class="nav-mobile-btn" id="nav-mobile-btn" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+<div class="page-header">
+  <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
+    <div>
+      <h1>Risk Ranking</h1>
+      <p class="subtitle">All campaigns sorted by risk score. Higher score = more risk signals detected.</p>
+    </div>
+    <a href="/api/risk-report" class="btn btn-secondary" download="doubtit-risk-report.txt">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v8M4 6l3 3 3-3M2 11h10" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Download Report
+    </a>
+  </div>
+</div>
+<main class="page-content">
+  <div class="container">
+    <div id="ranking-container">
+      <div class="loading-row"><div class="spinner"></div> Loading ranking…</div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><span>Doubt</span>It. <span class="footer-tagline">— Do not let your trust become a trap.</span></div>
+    <div class="footer-links"><a href="/about.html">About</a><a href="/submit.html">Submit Campaign</a></div>
+  </div>
+</footer>
+<script src="/js/api.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/ranking.js"></script>
+</body>
+</html>

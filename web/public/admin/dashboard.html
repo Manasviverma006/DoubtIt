@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard – DoubtIt</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="admin-stripe">
+  <div class="container">
+    <span class="admin-stripe-label">Admin Panel</span>
+    <span class="admin-stripe-user" id="admin-user-label"></span>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-brand" href="/"><span class="nav-logo">Doubt<span>It</span></span><span class="nav-tagline">Admin Dashboard</span></a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="/admin/dashboard.html">Submissions</a>
+      <a class="nav-link" href="/">Public Site</a>
+      <button class="nav-link" id="logout-btn" style="background:none;border:none;cursor:pointer">Log Out</button>
+    </div>
+    <button class="nav-mobile-btn" id="nav-mobile-btn" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div>
+      <h1>Campaign Submissions</h1>
+      <p class="subtitle">Review and act on campaigns submitted by the public for fraud verification.</p>
+    </div>
+    <div id="dash-stats" style="display:flex;gap:12px;flex-wrap:wrap"></div>
+  </div>
+</div>
+
+<main class="page-content">
+  <div class="container">
+
+    <div class="filter-bar mb-24">
+      <span class="filter-label">Status</span>
+      <button class="filter-btn active" data-status="all">All</button>
+      <button class="filter-btn" data-status="Pending Review">Pending</button>
+      <button class="filter-btn" data-status="Verified Legitimate">Verified Legitimate</button>
+      <button class="filter-btn" data-status="Fraudulent">Fraudulent</button>
+      <button class="filter-btn" data-status="Suspicious">Suspicious</button>
+      <button class="filter-btn" data-status="Rejected">Rejected</button>
+    </div>
+
+    <div id="submissions-container">
+      <div class="loading-row"><div class="spinner"></div> Loading submissions…</div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><span>Doubt</span>It. <span class="footer-tagline">— Do not let your trust become a trap.</span></div>
+    <div class="footer-links"><a href="/">Public Site</a></div>
+  </div>
+</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/admin/dashboard.js"></script>
+</body>
+</html>

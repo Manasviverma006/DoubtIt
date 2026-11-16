@@ -36,6 +36,8 @@ public:
     void displayGraph();
     void BFS(string start);
     void DFS(string start);
+    // BFS limited to maxDepth hops from the start node
+    void BFSWithDepth(string start, int maxDepth);
 };
 
 #endif

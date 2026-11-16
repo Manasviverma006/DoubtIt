@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "ComplaintList.h"
 
 using namespace std;
@@ -17,6 +18,7 @@ ComplaintList::~ComplaintList() {
     }
 }
 
+// O(n) – appends to the tail (preserves insertion order for CSV-loaded data)
 void ComplaintList::insertComplaint(Complaint c) {
     ComplaintNode* newNode = new ComplaintNode(c);
 
@@ -32,6 +34,13 @@ void ComplaintList::insertComplaint(Complaint c) {
     }
 
     temp->next = newNode;
+}
+
+// O(1) – prepends to the head (used for runtime-submitted complaints)
+void ComplaintList::insertAtFront(Complaint c) {
+    ComplaintNode* newNode = new ComplaintNode(c);
+    newNode->next = head;
+    head = newNode;
 }
 
 void ComplaintList::displayComplaintsForCampaign(string campaignId) {
@@ -78,10 +87,53 @@ int ComplaintList::countComplaintsForCampaign(string campaignId) {
         temp = temp->next;
     }
 
-
-
     return count;
 }
+
 ComplaintNode* ComplaintList::getHead() const {
     return head;
+}
+
+// Appends a single complaint as a CSV row to the given file path.
+// Fields that contain commas are wrapped in double quotes.
+void ComplaintList::saveComplaintToFile(const Complaint& c,
+                                        const string& filepath) {
+
+    ofstream file(filepath, ios::app);
+
+    if (!file.is_open()) {
+        cout << "Warning: could not open " << filepath
+             << " to save complaint." << endl;
+        return;
+    }
+
+    // Helper lambda: wrap in quotes if the field contains a comma
+    auto q = [](const string& s) -> string {
+        if (s.find(',') != string::npos ||
+            s.find('"') != string::npos) {
+            string out = "\"";
+            for (char ch : s) {
+                if (ch == '"') out += '"';   // escape embedded quotes
+                out += ch;
+            }
+            out += '"';
+            return out;
+        }
+        return s;
+    };
+
+    file << q(c.complaint_id)          << ","
+         << q(c.campaign_id)           << ","
+         << q(c.date_received)         << ","
+         << q(c.report_channel)        << ","
+         << q(c.complaint_description) << ","
+         << q(c.complaint_category)    << ","
+         << q(c.complaint_status)      << ","
+         << q(c.record_origin)         << ","
+         << q(c.record_type)           << ","
+         << q(c.related_identifier)    << "\n";
+
+    file.close();
+
+    cout << "Complaint saved to " << filepath << endl;
 }

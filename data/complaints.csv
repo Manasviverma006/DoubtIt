@@ -119,3 +119,6 @@ CMP117,C039,2026-11-05,Email,Different contact details appear in simulated campa
 CMP118,C046,2026-11-06,In-app report,Reporter says an expected progress update is not present in the sample record.,Update delay,Pending verification,Simulated user-submitted report,Synthetic,
 CMP119,C053,2026-11-07,Public reference note,Reporter asks whether the payment account is associated with the named organisation.,Account ownership query,Under review,Simulated user-submitted report,Synthetic,ACCOUNT:ACC-TEST-053
 CMP120,C060,2026-11-08,System pattern flag,Reporter requests an itemised budget or supporting estimate.,Budget/documentation query,System flag; requires review,System-generated pattern flag,Synthetic,
+CMP-20261114-001,C001,2026-11-14,User-Submitted,Money collected but no help given,Fake Campaign,Pending Review,Runtime,User,shared01@upi.test
+CMP-20261114-001,C001,2026-11-14,User-Submitted,Money collected but no help given,Fake Campaign,Pending Review,Runtime,User,shared01@upi.test
+CMP-20261114-001,C001,2026-11-14,User-Submitted,Money collected but no help given,Fake Campaign,Pending Review,Runtime,User,shared01@upi.test

@@ -3,6 +3,7 @@
 #define CAMPAIGN_LIST_H
 
 #include "../common/Campaign.h"
+#include <vector>
 
 struct CampaignNode {
     Campaign data;
@@ -27,6 +28,14 @@ public:
     bool searchCampaign(string id);
     bool deleteCampaign(string id);
     int countCampaigns();
+    CampaignNode* getHead() const;
+
+    // Merge sort: sorts the linked list in-place by campaign_name
+    void sortByName();
+
+    // Returns all campaigns as a sorted vector (used by binary search)
+    vector<Campaign> getCampaignVector() const;
+    
 };
 
 #endif

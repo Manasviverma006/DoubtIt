@@ -179,6 +179,62 @@ void Graph::DFS(string start) {
 }
 
 
+// BFS limited to maxDepth hops from the start node.
+// Uses a queue of (nodeId, currentDepth) pairs so the depth
+// of each discovered node is tracked without extra data structures.
+void Graph::BFSWithDepth(string start, int maxDepth) {
+
+    VertexNode* startVertex = findVertex(start);
+
+    if (startVertex == nullptr) {
+        cout << "Campaign not found in graph." << endl;
+        return;
+    }
+
+    if (maxDepth <= 0) {
+        cout << "Max depth must be at least 1." << endl;
+        return;
+    }
+
+    // Each queue element: (campaignId, depth)
+    queue<pair<string, int>> q;
+    vector<string> visited;
+
+    q.push(make_pair(start, 0));
+    visited.push_back(start);
+
+    cout << "BFS Within " << maxDepth
+         << " Hop(s) from " << start << ":\n";
+
+    while (!q.empty()) {
+        string current = q.front().first;
+        int    depth   = q.front().second;
+        q.pop();
+
+        cout << "  [Depth " << depth << "] " << current << "\n";
+
+        if (depth >= maxDepth)
+            continue;   // do not expand beyond maxDepth
+
+        VertexNode* vertex = findVertex(current);
+        EdgeNode* edge = vertex->head;
+
+        while (edge != nullptr) {
+            if (find(visited.begin(), visited.end(),
+                     edge->destination) == visited.end()) {
+
+                visited.push_back(edge->destination);
+                q.push(make_pair(edge->destination, depth + 1));
+            }
+
+            edge = edge->next;
+        }
+    }
+
+    cout << endl;
+}
+
+
 
 
 

@@ -10,6 +10,7 @@ HashTable::HashTable() {
         upiTable[i] = nullptr;
         bankTable[i] = nullptr;
         phoneTable[i] = nullptr;
+        websiteTable[i] = nullptr;   // NEW
     }
 }
 
@@ -27,6 +28,7 @@ HashTable::~HashTable() {
     clearIdentifierTable(upiTable);
     clearIdentifierTable(bankTable);
     clearIdentifierTable(phoneTable);
+    clearIdentifierTable(websiteTable);   // NEW
 }
 
 int HashTable::hashFunction(string key) {
@@ -118,6 +120,7 @@ void HashTable::insertCampaign(Campaign c) {
             insertIdentifier(upiTable, c.upi_id, c);
             insertIdentifier(bankTable, c.bank_account_test_id, c);
             insertIdentifier(phoneTable, c.phone_test_id, c);
+            insertIdentifier(websiteTable, c.website, c);   // NEW
 
             return;
         }
@@ -132,6 +135,7 @@ void HashTable::insertCampaign(Campaign c) {
     insertIdentifier(upiTable, c.upi_id, c);
     insertIdentifier(bankTable, c.bank_account_test_id, c);
     insertIdentifier(phoneTable, c.phone_test_id, c);
+    insertIdentifier(websiteTable, c.website, c);   // NEW
 }
 
 Campaign* HashTable::searchCampaign(string id) {
@@ -162,6 +166,7 @@ bool HashTable::deleteCampaign(string id) {
             removeIdentifier(upiTable, temp->data.upi_id, id);
             removeIdentifier(bankTable, temp->data.bank_account_test_id, id);
             removeIdentifier(phoneTable, temp->data.phone_test_id, id);
+            removeIdentifier(websiteTable, temp->data.website, id);   // NEW
 
             if (previous == nullptr) {
                 table[index] = temp->next;
@@ -338,4 +343,12 @@ void HashTable::searchBankAccount(string key) {
 
 void HashTable::searchPhoneNumber(string key) {
     searchIdentifier(phoneTable, key, "Phone Number");
+}
+
+void HashTable::searchWebsite(string key) {
+    searchIdentifier(websiteTable, key, "Website");
+}
+
+void HashTable::displaySharedWebsites() {
+    displaySharedIdentifiers(websiteTable, "Website");
 }

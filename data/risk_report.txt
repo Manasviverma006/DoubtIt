@@ -1,0 +1,648 @@
+DOUBTIT – CAMPAIGN RISK RANKING REPORT
+Generated: 2026-11-14
+=========================================
+
+Rank          : 1
+Campaign ID   : C001
+Campaign Name : Aarogya Child Care Appeal
+Organization  : BrightSteps Trust
+Risk Score    : 62 / 100
+Risk Level    : HIGH
+Complaints    : 4
+Risk Factors  :
+  - Complaint records: 4
+  - UPI ID shared with another campaign
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 2
+Campaign ID   : C005
+Campaign Name : Critical Care Fundraiser
+Organization  : CareFirst Network
+Risk Score    : 56 / 100
+Risk Level    : HIGH
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - UPI ID shared with another campaign
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 3
+Campaign ID   : C045
+Campaign Name : Critical Care Fundraiser - Batch 3
+Organization  : CareFirst Network
+Risk Score    : 46 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - UPI ID shared with another campaign
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 4
+Campaign ID   : C021
+Campaign Name : Aarogya Child Care Appeal - Batch 2
+Organization  : BrightSteps Trust
+Risk Score    : 46 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - UPI ID shared with another campaign
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 5
+Campaign ID   : C002
+Campaign Name : Emergency Surgery Support
+Organization  : HopeBridge Foundation
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 6
+Campaign ID   : C010
+Campaign Name : Community Kitchen Drive
+Organization  : FoodCircle Initiative
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 7
+Campaign ID   : C009
+Campaign Name : Medical Equipment Appeal
+Organization  : SehatAccess Group
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 8
+Campaign ID   : C007
+Campaign Name : Rural Water Project
+Organization  : JalSakhi Foundation
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 9
+Campaign ID   : C003
+Campaign Name : Flood Relief Community Drive
+Organization  : ReliefHands Collective
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 10
+Campaign ID   : C004
+Campaign Name : Education for Every Child
+Organization  : LearnWell Initiative
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 11
+Campaign ID   : C008
+Campaign Name : Support for Senior Citizens
+Organization  : GoldenYears Care
+Risk Score    : 36 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 12
+Campaign ID   : C033
+Campaign Name : Rural Health Van Project - Batch 2
+Organization  : HealthReach Collective
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 13
+Campaign ID   : C006
+Campaign Name : Animal Rescue Appeal
+Organization  : PawsAndHope Group
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 14
+Campaign ID   : C039
+Campaign Name : Orphanage Library Appeal - Batch 2
+Organization  : LittleReaders Trust
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 15
+Campaign ID   : C027
+Campaign Name : Rural Water Project - Batch 2
+Organization  : JalSakhi Foundation
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 16
+Campaign ID   : C057
+Campaign Name : Women Skills Training Fund - Batch 3
+Organization  : Udaan Skills Collective
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Bank account identifier shared
+-----------------------------------------
+Rank          : 17
+Campaign ID   : C025
+Campaign Name : Critical Care Fundraiser - Batch 2
+Organization  : CareFirst Network
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - UPI ID shared with another campaign
+-----------------------------------------
+Rank          : 18
+Campaign ID   : C041
+Campaign Name : Aarogya Child Care Appeal - Batch 3
+Organization  : BrightSteps Trust
+Risk Score    : 26 / 100
+Risk Level    : MEDIUM
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - UPI ID shared with another campaign
+-----------------------------------------
+Rank          : 19
+Campaign ID   : C034
+Campaign Name : Winter Blanket Distribution - Batch 2
+Organization  : WarmHearts Network
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 20
+Campaign ID   : C050
+Campaign Name : Community Kitchen Drive - Batch 3
+Organization  : FoodCircle Initiative
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 21
+Campaign ID   : C030
+Campaign Name : Community Kitchen Drive - Batch 2
+Organization  : FoodCircle Initiative
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 22
+Campaign ID   : C046
+Campaign Name : Animal Rescue Appeal - Batch 3
+Organization  : PawsAndHope Group
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 23
+Campaign ID   : C026
+Campaign Name : Animal Rescue Appeal - Batch 2
+Organization  : PawsAndHope Group
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 24
+Campaign ID   : C018
+Campaign Name : Village Sanitation Project
+Organization  : CleanVillage Network
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 25
+Campaign ID   : C042
+Campaign Name : Emergency Surgery Support - Batch 3
+Organization  : HopeBridge Foundation
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 26
+Campaign ID   : C058
+Campaign Name : Village Sanitation Project - Batch 3
+Organization  : CleanVillage Network
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 27
+Campaign ID   : C015
+Campaign Name : Accessible Learning Initiative
+Organization  : OpenPages Foundation
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 28
+Campaign ID   : C014
+Campaign Name : Winter Blanket Distribution
+Organization  : WarmHearts Network
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 29
+Campaign ID   : C013
+Campaign Name : Rural Health Van Project
+Organization  : HealthReach Collective
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 30
+Campaign ID   : C012
+Campaign Name : Scholarship Assistance Fund
+Organization  : FuturePath Trust
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 31
+Campaign ID   : C011
+Campaign Name : Disaster Housing Support
+Organization  : RebuildTogether Network
+Risk Score    : 16 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+  - Phone number shared with another campaign
+-----------------------------------------
+Rank          : 32
+Campaign ID   : C044
+Campaign Name : Education for Every Child - Batch 3
+Organization  : LearnWell Initiative
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 33
+Campaign ID   : C060
+Campaign Name : Emergency Ambulance Support - Batch 3
+Organization  : RapidCare Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 34
+Campaign ID   : C047
+Campaign Name : Rural Water Project - Batch 3
+Organization  : JalSakhi Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 35
+Campaign ID   : C048
+Campaign Name : Support for Senior Citizens - Batch 3
+Organization  : GoldenYears Care
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 36
+Campaign ID   : C049
+Campaign Name : Medical Equipment Appeal - Batch 3
+Organization  : SehatAccess Group
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 37
+Campaign ID   : C051
+Campaign Name : Disaster Housing Support - Batch 3
+Organization  : RebuildTogether Network
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 38
+Campaign ID   : C052
+Campaign Name : Scholarship Assistance Fund - Batch 3
+Organization  : FuturePath Trust
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 39
+Campaign ID   : C053
+Campaign Name : Rural Health Van Project - Batch 3
+Organization  : HealthReach Collective
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 40
+Campaign ID   : C054
+Campaign Name : Winter Blanket Distribution - Batch 3
+Organization  : WarmHearts Network
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 41
+Campaign ID   : C055
+Campaign Name : Accessible Learning Initiative - Batch 3
+Organization  : OpenPages Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 42
+Campaign ID   : C056
+Campaign Name : Blood Donation Awareness Drive - Batch 3
+Organization  : LifeDrop Initiative
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 43
+Campaign ID   : C059
+Campaign Name : Orphanage Library Appeal - Batch 3
+Organization  : LittleReaders Trust
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 44
+Campaign ID   : C029
+Campaign Name : Medical Equipment Appeal - Batch 2
+Organization  : SehatAccess Group
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 45
+Campaign ID   : C016
+Campaign Name : Blood Donation Awareness Drive
+Organization  : LifeDrop Initiative
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 46
+Campaign ID   : C017
+Campaign Name : Women Skills Training Fund
+Organization  : Udaan Skills Collective
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 47
+Campaign ID   : C019
+Campaign Name : Orphanage Library Appeal
+Organization  : LittleReaders Trust
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 48
+Campaign ID   : C020
+Campaign Name : Emergency Ambulance Support
+Organization  : RapidCare Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 49
+Campaign ID   : C022
+Campaign Name : Emergency Surgery Support - Batch 2
+Organization  : HopeBridge Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 50
+Campaign ID   : C023
+Campaign Name : Flood Relief Community Drive - Batch 2
+Organization  : ReliefHands Collective
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 51
+Campaign ID   : C024
+Campaign Name : Education for Every Child - Batch 2
+Organization  : LearnWell Initiative
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 52
+Campaign ID   : C028
+Campaign Name : Support for Senior Citizens - Batch 2
+Organization  : GoldenYears Care
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 53
+Campaign ID   : C043
+Campaign Name : Flood Relief Community Drive - Batch 3
+Organization  : ReliefHands Collective
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 54
+Campaign ID   : C031
+Campaign Name : Disaster Housing Support - Batch 2
+Organization  : RebuildTogether Network
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 55
+Campaign ID   : C032
+Campaign Name : Scholarship Assistance Fund - Batch 2
+Organization  : FuturePath Trust
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 56
+Campaign ID   : C035
+Campaign Name : Accessible Learning Initiative - Batch 2
+Organization  : OpenPages Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 57
+Campaign ID   : C036
+Campaign Name : Blood Donation Awareness Drive - Batch 2
+Organization  : LifeDrop Initiative
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 58
+Campaign ID   : C037
+Campaign Name : Women Skills Training Fund - Batch 2
+Organization  : Udaan Skills Collective
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 59
+Campaign ID   : C038
+Campaign Name : Village Sanitation Project - Batch 2
+Organization  : CleanVillage Network
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------
+Rank          : 60
+Campaign ID   : C040
+Campaign Name : Emergency Ambulance Support - Batch 2
+Organization  : RapidCare Foundation
+Risk Score    : 6 / 100
+Risk Level    : LOW
+Complaints    : 2
+Risk Factors  :
+  - Complaint records: 2
+-----------------------------------------

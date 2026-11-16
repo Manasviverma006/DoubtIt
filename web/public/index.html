@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoubtIt – Donation Fraud Risk Analysis</title>
+  <meta name="description" content="DoubtIt — Do not let your trust become a trap. Verify donation campaigns before you give. Check risk scores, complaints, and shared payment identifiers.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-brand" href="/">
+      <span class="nav-logo">Doubt<span>It</span></span>
+      <span class="nav-tagline">Do not let your trust become a trap.</span>
+    </a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/search.html">Check a Campaign</a>
+      <a class="nav-link" href="/campaigns.html">Browse</a>
+      <a class="nav-link" href="/ranking.html">Risk Ranking</a>
+      <a class="nav-link" href="/about.html">About</a>
+      <a class="nav-link cta" href="/submit.html">Submit a Campaign</a>
+    </div>
+    <button class="nav-mobile-btn" id="nav-mobile-btn" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Know before you <em>donate.</em></h1>
+    <p class="hero-tagline">Do not let your trust become a trap.</p>
+    <p>DoubtIt analyses donation campaigns for fraud signals — shared payment IDs, complaint history, and verification status — so you can give with confidence.</p>
+    <div class="hero-actions">
+      <a href="/search.html" class="btn btn-primary btn-lg">Check a Campaign</a>
+      <a href="/submit.html" class="btn btn-secondary btn-lg" style="color:#fff;border-color:rgba(255,255,255,0.25);background:rgba(255,255,255,0.08);">Submit a Campaign</a>
+    </div>
+  </div>
+</section>
+
+<!-- NOTICE -->
+<div class="notice">
+  <div class="container">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1L13 12H1L7 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 6v3M7 10.5h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    All data is synthetic and for educational purposes only. Risk scores are algorithmic assessments, not legal determinations.
+  </div>
+</div>
+
+<main class="page-content">
+  <div class="container">
+
+    <!-- STATS -->
+    <div class="section">
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-card"><div class="stat-label">Campaigns Monitored</div><div class="stat-value" id="stat-campaigns">—</div></div>
+        <div class="stat-card"><div class="stat-label">Total Complaints</div><div class="stat-value" id="stat-complaints">—</div></div>
+        <div class="stat-card"><div class="stat-label">High Risk</div><div class="stat-value stat-high" id="stat-high">—</div></div>
+        <div class="stat-card"><div class="stat-label">Medium Risk</div><div class="stat-value stat-medium" id="stat-medium">—</div></div>
+        <div class="stat-card"><div class="stat-label">Pending Review</div><div class="stat-value" id="stat-pending">—</div></div>
+      </div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <div class="section">
+      <div class="section-header">
+        <h2 class="section-title">How DoubtIt Works</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card"><div class="step-num">1</div><div class="step-title">Search</div><div class="step-desc">Look up any campaign by name, UPI ID, website, phone number, or bank account.</div></div>
+        <div class="step-card"><div class="step-num">2</div><div class="step-title">Analyse</div><div class="step-desc">Our system checks for shared payment identifiers, complaint history, and review status.</div></div>
+        <div class="step-card"><div class="step-num">3</div><div class="step-title">Risk Score</div><div class="step-desc">Each campaign gets a 0–100 risk score with an interpretable breakdown of risk factors.</div></div>
+        <div class="step-card"><div class="step-num">4</div><div class="step-title">Decide</div><div class="step-desc">Use the information to make an informed decision. High risk ≠ confirmed fraud.</div></div>
+      </div>
+    </div>
+
+    <!-- TOP HIGH RISK CAMPAIGNS -->
+    <div class="section">
+      <div class="section-header">
+        <h2 class="section-title">Highest Risk Campaigns</h2>
+        <a href="/ranking.html" class="section-link">View full ranking →</a>
+      </div>
+      <div id="top-risk-container">
+        <div class="loading-row"><div class="spinner"></div> Loading campaigns…</div>
+      </div>
+    </div>
+
+    <!-- QUICK SEARCH -->
+    <div class="section">
+      <div class="section-header">
+        <h2 class="section-title">Quick Search</h2>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="search-wrap">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="8" cy="8" r="5.5" stroke="#9C9690" stroke-width="1.5"/><path d="M12.5 12.5L16 16" stroke="#9C9690" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <input id="quick-search" class="search-input" type="text" placeholder="Search by campaign name, UPI ID, website…" autocomplete="off">
+          </div>
+          <div id="quick-results" class="mt-16"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><span>Doubt</span>It. <span class="footer-tagline">— Do not let your trust become a trap.</span></div>
+    <div class="footer-links">
+      <a href="/about.html">About</a>
+      <a href="/submit.html">Submit Campaign</a>
+      <a href="/admin/login.html">Admin</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>

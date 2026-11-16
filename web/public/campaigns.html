@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Campaigns – DoubtIt</title>
+  <meta name="description" content="DoubtIt — Do not let your trust become a trap. Browse all 60 monitored donation campaigns, filtered and sorted by risk level and complaint count.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-brand" href="/"><span class="nav-logo">Doubt<span>It</span></span></a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/search.html">Check a Campaign</a>
+      <a class="nav-link" href="/campaigns.html">Browse</a>
+      <a class="nav-link" href="/ranking.html">Risk Ranking</a>
+      <a class="nav-link" href="/about.html">About</a>
+      <a class="nav-link cta" href="/submit.html">Submit a Campaign</a>
+    </div>
+    <button class="nav-mobile-btn" id="nav-mobile-btn" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Browse Campaigns</h1>
+    <p class="subtitle">All monitored campaigns with risk scores. Click any campaign to view the full risk report.</p>
+  </div>
+</div>
+
+<main class="page-content">
+  <div class="container">
+    <div class="filter-bar">
+      <span class="filter-label">Risk Level</span>
+      <button class="filter-btn active" data-risk="all">All</button>
+      <button class="filter-btn" data-risk="high">High</button>
+      <button class="filter-btn" data-risk="medium">Medium</button>
+      <button class="filter-btn" data-risk="low">Low</button>
+      <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+        <span class="filter-label">Sort by</span>
+        <select class="filter-select" id="sort-select">
+          <option value="score">Risk Score ↓</option>
+          <option value="name">Name A–Z</option>
+          <option value="complaints">Complaints ↓</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="campaigns-container">
+      <div class="loading-row"><div class="spinner"></div> Loading campaigns…</div>
+    </div>
+
+    <div id="pagination" class="pagination"></div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><span>Doubt</span>It. <span class="footer-tagline">— Do not let your trust become a trap.</span></div>
+    <div class="footer-links"><a href="/about.html">About</a><a href="/submit.html">Submit Campaign</a></div>
+  </div>
+</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/campaigns.js"></script>
+</body>
+</html>

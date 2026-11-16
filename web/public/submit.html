@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Campaign – DoubtIt</title>
+  <meta name="description" content="DoubtIt — Do not let your trust become a trap. Submit a donation campaign for verification review by the DoubtIt team.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-brand" href="/"><span class="nav-logo">Doubt<span>It</span></span></a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/search.html">Check a Campaign</a>
+      <a class="nav-link" href="/campaigns.html">Browse</a>
+      <a class="nav-link" href="/ranking.html">Risk Ranking</a>
+      <a class="nav-link" href="/about.html">About</a>
+      <a class="nav-link cta" href="/submit.html">Submit a Campaign</a>
+    </div>
+    <button class="nav-mobile-btn" id="nav-mobile-btn" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Register a New Campaign</h1>
+    <p class="subtitle">Submit a campaign you believe needs fraud verification. Our team will review it and assign it a verified status.</p>
+  </div>
+</div>
+
+<main class="page-content">
+  <div class="container" style="max-width:720px">
+
+    <div class="alert alert-info mb-24">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 7.5v4M8 5h.01" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+      <div><strong>Pending Review Process:</strong> Submitted campaigns are <strong>not immediately added</strong> to the public database. Your submission enters a review queue and our team will verify the information before making it public.</div>
+    </div>
+
+    <div id="form-container">
+      <form id="submit-form" novalidate>
+
+        <div class="card">
+          <div class="card-header"><span class="card-title">Campaign Information</span></div>
+          <div class="card-body">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="campaign_name">Campaign Name <span class="required">*</span></label>
+                <input class="form-control" id="campaign_name" name="campaign_name" type="text" placeholder="e.g. Flood Relief 2026" maxlength="200" required>
+                <div class="form-error" id="err-campaign_name"></div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="organization_name">Organisation / Operator <span class="required">*</span></label>
+                <input class="form-control" id="organization_name" name="organization_name" type="text" placeholder="e.g. HopeBridge Foundation" maxlength="200" required>
+                <div class="form-error" id="err-organization_name"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="campaign_url">Campaign Website or URL <span class="optional">(optional)</span></label>
+              <input class="form-control" id="campaign_url" name="campaign_url" type="url" placeholder="https://example.com/campaign">
+              <div class="form-error" id="err-campaign_url"></div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="campaign_category">Campaign Category</label>
+              <select class="form-control" id="campaign_category" name="campaign_category">
+                <option value="">Select a category…</option>
+                <option>Medical Emergency</option>
+                <option>Disaster Relief</option>
+                <option>Education</option>
+                <option>Child Welfare</option>
+                <option>Animal Welfare</option>
+                <option>Hunger / Poverty</option>
+                <option>Environment</option>
+                <option>Religious / Community</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="campaign_description">Campaign Description <span class="required">*</span></label>
+              <textarea class="form-control" id="campaign_description" name="campaign_description" rows="4" placeholder="Describe the campaign, what it claims to do, how it collects funds, and any details you have observed…" minlength="50" required></textarea>
+              <div class="form-hint">Minimum 50 characters. <span id="desc-count">0</span> entered.</div>
+              <div class="form-error" id="err-campaign_description"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card mt-24">
+          <div class="card-header"><span class="card-title">Reason for Reporting</span></div>
+          <div class="card-body">
+
+            <div class="form-group">
+              <label class="form-label" for="reason_for_reporting">Why do you believe this campaign needs verification? <span class="required">*</span></label>
+              <textarea class="form-control" id="reason_for_reporting" name="reason_for_reporting" rows="4" placeholder="e.g. The UPI ID appears in multiple campaigns. The organisation cannot be verified online. Funds collected but no updates provided…" minlength="30" required></textarea>
+              <div class="form-hint">Minimum 30 characters. <span id="reason-count">0</span> entered.</div>
+              <div class="form-error" id="err-reason_for_reporting"></div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="evidence_links">Supporting Evidence / Reference Links <span class="optional">(optional)</span></label>
+              <textarea class="form-control" id="evidence_links" name="evidence_links" rows="3" placeholder="Paste URLs, news articles, social media links, or other references — one per line."></textarea>
+              <div class="form-hint">Paste external links that support your concern, one per line.</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card mt-24">
+          <div class="card-header"><span class="card-title">Your Contact Information <span style="font-weight:400;color:var(--text-muted)">(Optional)</span></span></div>
+          <div class="card-body">
+            <div class="form-group mb-0">
+              <label class="form-label" for="submitter_contact">Email Address <span class="optional">(optional)</span></label>
+              <input class="form-control" id="submitter_contact" name="submitter_contact" type="email" placeholder="your@email.com">
+              <div class="form-hint">Only used if our team needs clarification. Never shared publicly.</div>
+              <div class="form-error" id="err-submitter_contact"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="form-alert" class="mt-16"></div>
+
+        <div class="mt-24" style="display:flex;gap:12px;align-items:center">
+          <button type="submit" class="btn btn-primary btn-lg" id="submit-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14 2L7 9M14 2H9M14 2V7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Submit for Review
+          </button>
+          <span class="text-sm text-muted">Your submission will be assigned a unique reference ID.</span>
+        </div>
+
+      </form>
+    </div>
+
+    <div id="success-container" class="hidden">
+      <div class="card">
+        <div class="card-body">
+          <div class="confirmation">
+            <div class="confirmation-icon">✓</div>
+            <h2>Submission Received</h2>
+            <p>Thank you for helping keep donors safe. Your submission has been queued for review by our team.</p>
+            <div class="conf-id" id="conf-id">—</div>
+            <p class="text-sm text-muted mt-8">Please note your reference ID above. The campaign will only appear in our public database after it has been reviewed and approved.</p>
+            <div style="display:flex;gap:12px;justify-content:center;margin-top:24px">
+              <a href="/submit.html" class="btn btn-secondary">Submit Another</a>
+              <a href="/search.html" class="btn btn-primary">Check a Campaign</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><span>Doubt</span>It. <span class="footer-tagline">— Do not let your trust become a trap.</span></div>
+    <div class="footer-links"><a href="/about.html">About</a></div>
+  </div>
+</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/submit.js"></script>
+</body>
+</html>

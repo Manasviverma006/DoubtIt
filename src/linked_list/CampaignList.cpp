@@ -112,3 +112,101 @@ int CampaignList::countCampaigns() {
 
     return count;
 }
+CampaignNode* CampaignList::getHead() const {
+    return head;
+}
+
+
+// ============================================================
+// MERGE SORT HELPERS (operate on CampaignNode* pointers)
+// ============================================================
+
+// Split list into two halves using the slow/fast pointer technique
+static void splitList(CampaignNode* source,
+                      CampaignNode** frontRef,
+                      CampaignNode** backRef) {
+
+    if (source == nullptr || source->next == nullptr) {
+        *frontRef = source;
+        *backRef = nullptr;
+        return;
+    }
+
+    CampaignNode* slow = source;
+    CampaignNode* fast = source->next;
+
+    while (fast != nullptr) {
+        fast = fast->next;
+        if (fast != nullptr) {
+            slow = slow->next;
+            fast = fast->next;
+        }
+    }
+
+    *frontRef = source;
+    *backRef = slow->next;
+    slow->next = nullptr;   // cut the list at mid-point
+}
+
+// Merge two sorted sublists and return the merged head
+static CampaignNode* mergeSorted(CampaignNode* a, CampaignNode* b) {
+
+    if (a == nullptr) return b;
+    if (b == nullptr) return a;
+
+    CampaignNode* result;
+
+    if (a->data.campaign_name <= b->data.campaign_name) {
+        result = a;
+        result->next = mergeSorted(a->next, b);
+    } else {
+        result = b;
+        result->next = mergeSorted(a, b->next);
+    }
+
+    return result;
+}
+
+// Recursive merge sort on node pointer
+static void mergeSort(CampaignNode** headRef) {
+    CampaignNode* h = *headRef;
+
+    if (h == nullptr || h->next == nullptr)
+        return;
+
+    CampaignNode* front = nullptr;
+    CampaignNode* back  = nullptr;
+
+    splitList(h, &front, &back);
+
+    mergeSort(&front);
+    mergeSort(&back);
+
+    *headRef = mergeSorted(front, back);
+}
+
+void CampaignList::sortByName() {
+    mergeSort(&head);
+}
+
+// Return a snapshot of all campaigns as a sorted std::vector
+// (sort is by name using std::sort on the vector, not on the list)
+#include <algorithm>
+
+vector<Campaign> CampaignList::getCampaignVector() const {
+
+    vector<Campaign> vec;
+    CampaignNode* temp = head;
+
+    while (temp != nullptr) {
+        vec.push_back(temp->data);
+        temp = temp->next;
+    }
+
+    sort(vec.begin(), vec.end(),
+         [](const Campaign& a, const Campaign& b) {
+             return a.campaign_name < b.campaign_name;
+         });
+
+    return vec;
+}

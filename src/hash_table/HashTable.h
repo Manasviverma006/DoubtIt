@@ -35,6 +35,7 @@ private:
     IdentifierNode* upiTable[TABLE_SIZE];
     IdentifierNode* bankTable[TABLE_SIZE];
     IdentifierNode* phoneTable[TABLE_SIZE];
+    IdentifierNode* websiteTable[TABLE_SIZE];  // NEW: website lookup
     void searchIdentifier(
     IdentifierNode* identifierTable[],
     string key,
@@ -76,9 +77,11 @@ public:
     void displaySharedUPIs();
     void displaySharedBankAccounts();
     void displaySharedPhoneNumbers();
+    void displaySharedWebsites();      // NEW
     void searchUPI(string key);
-void searchBankAccount(string key);
-void searchPhoneNumber(string key);
+    void searchBankAccount(string key);
+    void searchPhoneNumber(string key);
+    void searchWebsite(string key);    // NEW
 };
 
 #endif
