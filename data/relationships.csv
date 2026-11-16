@@ -1,0 +1,23 @@
+relationship_id,source_campaign_id,target_campaign_id,relationship_type,shared_identifier,record_type,interpretation
+REL001,C001,C005,UPI,shared01@upi.test,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL002,C021,C025,UPI,shared05@upi.test,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL003,C041,C045,UPI,shared09@upi.test,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL004,C001,C003,Bank test ID,ACC-TEST-001,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL005,C002,C009,Bank test ID,ACC-TEST-002,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL006,C004,C021,Bank test ID,ACC-TEST-004,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL007,C005,C027,Bank test ID,ACC-TEST-005,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL008,C006,C033,Bank test ID,ACC-TEST-006,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL009,C007,C039,Bank test ID,ACC-TEST-007,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL010,C008,C045,Bank test ID,ACC-TEST-008,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL011,C010,C057,Bank test ID,ACC-TEST-010,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL012,C001,C002,Phone test ID,PH-TEST-001,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL013,C003,C010,Phone test ID,PH-TEST-003,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL014,C004,C014,Phone test ID,PH-TEST-004,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL015,C005,C018,Phone test ID,PH-TEST-005,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL016,C007,C026,Phone test ID,PH-TEST-007,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL017,C008,C030,Phone test ID,PH-TEST-008,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL018,C009,C034,Phone test ID,PH-TEST-009,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL019,C011,C042,Phone test ID,PH-TEST-011,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL020,C012,C046,Phone test ID,PH-TEST-012,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL021,C013,C050,Phone test ID,PH-TEST-013,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing
+REL022,C015,C058,Phone test ID,PH-TEST-015,Synthetic,Shared test identifier; not proof of common ownership or wrongdoing

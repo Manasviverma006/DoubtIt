@@ -1,0 +1,16 @@
+{
+  "name": "doubtit-web",
+  "version": "1.0.0",
+  "description": "DoubtIt – Donation Fraud Risk Analysis Web Application",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "express-session": "^1.18.0"
+  }
+}

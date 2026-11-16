@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Submission – DoubtIt Admin</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="admin-stripe">
+  <div class="container">
+    <span class="admin-stripe-label">Admin Panel</span>
+    <span class="admin-stripe-user" id="admin-user-label"></span>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-brand" href="/"><span class="nav-logo">Doubt<span>It</span></span><span class="nav-tagline">Admin Review</span></a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="/admin/dashboard.html">← Back to Dashboard</a>
+      <a class="nav-link" href="/">Public Site</a>
+      <button class="nav-link" id="logout-btn" style="background:none;border:none;cursor:pointer">Log Out</button>
+    </div>
+    <button class="nav-mobile-btn" id="nav-mobile-btn" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1 id="review-title">Review Submission</h1>
+    <p class="subtitle" id="review-subtitle"></p>
+  </div>
+</div>
+
+<main class="page-content">
+  <div class="container">
+    <div id="review-content">
+      <div class="loading-row"><div class="spinner"></div> Loading submission…</div>
+    </div>
+  </div>
+</main>
+
+<!-- REVIEW MODAL -->
+<div class="modal-overlay" id="review-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-title">Record Review Decision</span>
+      <button class="modal-close" id="modal-close">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label" for="review_decision">Decision <span class="required">*</span></label>
+        <select class="form-control" id="review_decision">
+          <option value="">Select a decision…</option>
+          <option value="Verified Legitimate">Verified Legitimate – Campaign appears genuine</option>
+          <option value="Fraudulent">Fraudulent – Strong evidence of fraud</option>
+          <option value="Suspicious">Suspicious – Risk signals present, needs monitoring</option>
+          <option value="Needs More Information">Needs More Information – Insufficient data to decide</option>
+          <option value="Rejected">Rejected – Submission is irrelevant or invalid</option>
+        </select>
+      </div>
+      <div class="form-group mb-0">
+        <label class="form-label" for="review_notes">Internal Notes <span class="optional">(optional)</span></label>
+        <textarea class="form-control" id="review_notes" rows="4" placeholder="Add context, links, or rationale for this decision…"></textarea>
+      </div>
+      <div id="modal-alert" class="mt-12"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" id="modal-cancel">Cancel</button>
+      <button class="btn btn-primary" id="modal-submit">Submit Decision</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand"><span>Doubt</span>It. <span class="footer-tagline">— Do not let your trust become a trap.</span></div>
+    <div class="footer-links"><a href="/admin/dashboard.html">Dashboard</a></div>
+  </div>
+</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/admin/review.js"></script>
+</body>
+</html>

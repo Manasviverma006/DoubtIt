@@ -1,0 +1,30 @@
+[
+  {
+    "submission_id": "REP-1794656354998-5083",
+    "campaign_name": "TEST - Community Education Support Drive",
+    "campaign_url": "",
+    "organization_name": "DoubtIt Demo Organisation",
+    "campaign_description": "This is a demonstration campaign created for testing the DoubtIt platform. The campaign aims to provide educational materials, books and stationery to students from economically disadvantaged backgrounds. All campaign details are fictional and intended only for software testing.",
+    "campaign_category": "Education",
+    "reason_for_reporting": "This is a test submission to verify the campaign registration and review workflow. We want to check whether DoubtIt correctly stores campaign information, generates a unique reference ID and makes the submission available for administrative review. Copy",
+    "evidence_links": "",
+    "submitter_contact": "",
+    "submission_date": "2026-11-14T11:39:14.998Z",
+    "review_status": "Pending Review",
+    "submitted_ip": "::1"
+  },
+  {
+    "submission_id": "REP-1794655013169-7954",
+    "campaign_name": "Test Flood Relief",
+    "campaign_url": "https://test.example.com",
+    "organization_name": "TestOrg",
+    "campaign_description": "A very detailed description of a test campaign that is at least 50 characters long for validation.",
+    "campaign_category": "Disaster Relief",
+    "reason_for_reporting": "This is a test reason that is at least 30 characters long for validation.",
+    "evidence_links": "",
+    "submitter_contact": "test@example.com",
+    "submission_date": "2026-11-14T11:16:53.169Z",
+    "review_status": "Pending Review",
+    "submitted_ip": "::1"
+  }
+]
